@@ -1,117 +1,75 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Cosmic Tic-Tac-Toe AI Banner" width="100%">
-</p>
+🚀 Cosmic Tic-Tac-Toe AI
+<p align="center"> <img src="assets/banner.png" alt="Cosmic Tic-Tac-Toe AI Banner" width="100%"> </p> <p align="center"> <b>A futuristic space-themed Tic-Tac-Toe game powered by Artificial Intelligence.</b> </p> <p align="center"> Human vs Alien Intelligence • Minimax Algorithm • Alpha-Beta Pruning • Tkinter GUI </p>
+🌌 Project Overview
 
-# 🚀 Cosmic Tic-Tac-Toe AI
+Cosmic Tic-Tac-Toe AI is a space-themed implementation of the classic Tic-Tac-Toe game where a human commander battles an intelligent alien AI.
 
-> A futuristic space-themed Tic-Tac-Toe game powered by an unbeatable AI using the **Minimax Algorithm** with **Alpha-Beta Pruning**.
+The project demonstrates key Artificial Intelligence concepts including:
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue">
-  <img src="https://img.shields.io/badge/GUI-Tkinter-green">
-  <img src="https://img.shields.io/badge/AI-Minimax-purple">
-  <img src="https://img.shields.io/badge/Status-Completed-success">
-</p>
+🧠 Minimax Algorithm
+⚡ Alpha-Beta Pruning
+🎮 Game Theory
+🖥️ GUI Development with Tkinter
+🏗️ Object-Oriented Programming
+💾 JSON Data Persistence
 
----
+Developed as part of an AI Internship Program to strengthen practical AI and software engineering skills.
 
-# 🌌 Project Overview
+🎮 Features
+🤖 Intelligent AI Opponent
 
-**Cosmic Tic-Tac-Toe AI** is an advanced implementation of the classic Tic-Tac-Toe game where a human commander battles against an intelligent Alien AI.
+Choose from multiple difficulty levels:
 
-This project was developed as part of an AI Internship Program to demonstrate:
+Easy Mode
+Medium Mode
+Impossible Mode (Minimax + Alpha-Beta Pruning)
 
-- Artificial Intelligence
-- Game Theory
-- Minimax Algorithm
-- Alpha-Beta Pruning
-- GUI Development with Tkinter
-- Object-Oriented Programming
-- Data Persistence using JSON
+The Impossible Mode AI always plays optimally and cannot be defeated.
 
----
+🚀 Space-Themed Gameplay
+Futuristic user interface
+Astronaut Commander vs Alien AI
+Interactive game board
+Real-time AI decision making
+🏆 Leaderboard System
 
-# 🎮 Features
+Track player performance using JSON-based persistence:
 
-## 🤖 Intelligent AI Opponent
+Wins
+Losses
+Draws
+Total Games Played
+🎖️ Achievement System
 
-- Easy Mode
-- Medium Mode
-- Impossible Mode (Unbeatable AI)
+Unlock achievements based on gameplay milestones.
 
-## 🚀 Space-Themed User Interface
+Examples:
 
-- Cosmic Home Screen
-- Astronaut Commander Avatar
-- Alien AI Avatar
-- Sci-Fi Inspired Design
+First Victory
+Winning Streaks
+Master Strategist
+Cosmic Champion
+🔄 Navigation System
+Home Screen
+Game Screen
+Result Screen
+Leaderboard Screen
+Achievements Screen
+🧠 AI Implementation
+Minimax Algorithm
 
-## 📊 Match Analytics
+The AI evaluates all possible future game states and selects the move that maximizes its chance of winning while minimizing the player's advantage.
 
-Track:
+Alpha-Beta Pruning
 
-- Player Moves
-- AI Moves
-- Difficulty Level
-- Match Results
+Alpha-Beta Pruning optimizes Minimax by eliminating branches that cannot influence the final decision.
 
-## 🏆 Result Screens
+Benefits:
 
-- Victory Screen
-- Defeat Screen
-- Draw Screen
-
-## 🎯 AI Techniques
-
-- Minimax Search Algorithm
-- Alpha-Beta Pruning
-- Optimal Move Selection
-
-## 🔄 Navigation System
-
-- Home Screen
-- Game Screen
-- Result Screen
-- Restart Match
-- Return Home
-
-## 📂 Additional Modules
-
-- Leaderboard System
-- Achievement Tracking
-- JSON Data Persistence
-
----
-
-# 🖼️ Screenshots
-
-## 🏠 Home Screen
-
-![Home Screen](screenshots/home-screen.png)
-
----
-
-## 🎮 Gameplay
-
-![Gameplay](screenshots/gameplay.png)
-
----
-
-## 🏆 Victory Screen
-
-![Victory Screen](screenshots/victory.png)
-
----
-
-## 📊 Leaderboard
-
-![Leaderboard](screenshots/leaderboard.png)
-
----
-
-# 🏗️ Project Structure
-
-```text
+Faster decision making
+Reduced search complexity
+Optimal gameplay
+📂 Project Structure
 Cosmic-Tic-Tac-Toe-AI
 │
 ├── assets
@@ -137,101 +95,79 @@ Cosmic-Tic-Tac-Toe-AI
 ├── main.py
 ├── requirements.txt
 └── README.md
-```
+⚙️ Installation
+1️⃣ Clone the Repository
+git clone https://github.com/YOUR_USERNAME/Cosmic-Tic-Tac-Toe-AI.git
+2️⃣ Navigate to the Project Folder
+cd Cosmic-Tic-Tac-Toe-AI
+3️⃣ Create a Virtual Environment
+python -m venv .venv
+4️⃣ Activate the Environment
 
----
+Windows
 
-# 🧠 How the AI Works
+.venv\Scripts\activate
 
-## Minimax Algorithm
+Mac/Linux
 
-The AI evaluates all possible future game states and chooses the move that maximizes its chances of winning while minimizing the opponent's chances.
-
-## Alpha-Beta Pruning
-
-Alpha-Beta Pruning reduces the number of game states explored during the search process, significantly improving performance without affecting decision quality.
-
-### Outcome
-
-On **Impossible Mode**, the AI will:
-
-- Never lose
-- Always block winning moves
-- Always choose the optimal strategy
-
----
-
-# ⚙️ Installation
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/cosmic-tic-tac-toe-ai.git
-```
-
-## Navigate to Project Folder
-
-```bash
-cd cosmic-tic-tac-toe-ai
-```
-
-## Install Dependencies
-
-```bash
+source .venv/bin/activate
+5️⃣ Install Dependencies
 pip install -r requirements.txt
-```
-
-## Run the Application
-
-```bash
+6️⃣ Run the Game
 python main.py
-```
+📦 Requirements
+Python 3.10+
+Pillow
+Tkinter
 
----
+Install dependencies:
 
-# 📦 Requirements
+pip install pillow
+🎯 Learning Outcomes
 
-```txt
-pillow
-```
+This project helped develop practical experience in:
 
----
+Artificial Intelligence
+Game Theory
+Adversarial Search
+Minimax Strategy
+Alpha-Beta Pruning
+Python Programming
+Tkinter GUI Development
+Event-Driven Programming
+Data Persistence with JSON
+Software Architecture
+Object-Oriented Design
+🚀 Future Improvements
 
-# 🎯 Learning Outcomes
+Planned enhancements include:
 
-Through this project I learned:
+Sound Effects
+Animated Transitions
+AI Move Visualisation
+Enhanced Statistics Dashboard
+Expanded Achievement System
+Improved UI/UX
+Multiplayer Support
+Online Leaderboards
 
-- Artificial Intelligence Fundamentals
-- Adversarial Search Algorithms
-- Minimax Strategy
-- Alpha-Beta Pruning Optimization
-- Python GUI Development
-- Event-Driven Programming
-- Software Architecture
-- Object-Oriented Design
-- Data Persistence with JSON
+👩‍💻 Author
 
----
+Upasana Pawar
 
-# 🚀 Future Enhancements
+⭐ Support
 
-- 🔊 Sound Effects
-- 🎞️ Animated AI Thinking Screen
-- 👥 Multiplayer Mode
-- 🌐 Online Matchmaking
-- 🌙 Dark / Light Themes
-- 📈 Statistics Dashboard
-- 🤖 AI Difficulty Analytics
-- 🏅 Expanded Achievement System
+If you found this project useful or interesting, consider giving it a Star ⭐ on GitHub.
 
----
+"The AI may be unbeatable, but every match is a chance to improve your strategy." 🚀👽
 
-# 👩‍💻 Author
+GitHub tip
 
-**Upasana Pawar**
----
+Put your banner image here:
 
-# ⭐ Support
+assets/banner.png
+
+
 
 If you found this project interesting, consider giving it a **Star ⭐** on GitHub.
 
