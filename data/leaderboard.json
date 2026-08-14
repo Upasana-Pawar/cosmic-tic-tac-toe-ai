@@ -1,0 +1,16 @@
+{
+    "players": {
+        "Upa": {
+            "wins": 0,
+            "losses": 0,
+            "draws": 2,
+            "games": 2
+        },
+        "Commander": {
+            "wins": 3,
+            "losses": 0,
+            "draws": 0,
+            "games": 3
+        }
+    }
+}
