@@ -1,93 +1,68 @@
-🚀 Cosmic Tic-Tac-Toe AI
-<p align="center"> <img src="assets/banner.png" alt="Cosmic Tic-Tac-Toe AI Banner" width="100%"> </p> <p align="center"> <b>A futuristic space-themed Tic-Tac-Toe game powered by Artificial Intelligence.</b> </p> <p align="center"> Human vs Alien Intelligence • Minimax Algorithm • Alpha-Beta Pruning • Tkinter GUI </p>
-🌌 Project Overview
+# 🚀 Cosmic Tic-Tac-Toe AI
 
-Cosmic Tic-Tac-Toe AI is a space-themed implementation of the classic Tic-Tac-Toe game where a human commander battles an intelligent alien AI.
+<p align="center">
+  <img src="assets/banner.png" alt="Cosmic Tic-Tac-Toe AI Banner">
+</p>
 
-The project demonstrates key Artificial Intelligence concepts including:
+<p align="center">
+  <b>A space-themed Tic-Tac-Toe game powered by Artificial Intelligence.</b>
+</p>
 
-🧠 Minimax Algorithm
-⚡ Alpha-Beta Pruning
-🎮 Game Theory
-🖥️ GUI Development with Tkinter
-🏗️ Object-Oriented Programming
-💾 JSON Data Persistence
+<p align="center">
+  Minimax Algorithm • Alpha-Beta Pruning • Tkinter • Python
+</p>
 
-Developed as part of an AI Internship Program to strengthen practical AI and software engineering skills.
+---
 
-🎮 Features
-🤖 Intelligent AI Opponent
+## 🌌 About
 
-Choose from multiple difficulty levels:
+Cosmic Tic-Tac-Toe AI is a futuristic implementation of the classic Tic-Tac-Toe game where players challenge an intelligent Alien AI opponent.
 
-Easy Mode
-Medium Mode
-Impossible Mode (Minimax + Alpha-Beta Pruning)
+The project demonstrates core Artificial Intelligence concepts including:
 
-The Impossible Mode AI always plays optimally and cannot be defeated.
+- Minimax Algorithm
+- Alpha-Beta Pruning
+- Adversarial Search
+- Game Theory
+- Object-Oriented Programming
+- JSON Data Persistence
 
-🚀 Space-Themed Gameplay
-Futuristic user interface
-Astronaut Commander vs Alien AI
-Interactive game board
-Real-time AI decision making
-🏆 Leaderboard System
+---
 
-Track player performance using JSON-based persistence:
+## ✨ Features
 
-Wins
-Losses
-Draws
-Total Games Played
-🎖️ Achievement System
+- 🤖 Intelligent AI Opponent
+- 🎮 Multiple Difficulty Levels
+- 🚀 Space-Themed Interface
+- 🏆 Leaderboard System
+- 🎖️ Achievement System
+- 💾 Persistent Game Statistics
+- 🔄 Restart & Replay Functionality
 
-Unlock achievements based on gameplay milestones.
+---
 
-Examples:
+## 🧠 AI Strategy
 
-First Victory
-Winning Streaks
-Master Strategist
-Cosmic Champion
-🔄 Navigation System
-Home Screen
-Game Screen
-Result Screen
-Leaderboard Screen
-Achievements Screen
-🧠 AI Implementation
-Minimax Algorithm
+### Minimax Algorithm
 
-The AI evaluates all possible future game states and selects the move that maximizes its chance of winning while minimizing the player's advantage.
+The AI evaluates every possible game state and selects the move that maximizes its chance of winning.
 
-Alpha-Beta Pruning
+### Alpha-Beta Pruning
 
-Alpha-Beta Pruning optimizes Minimax by eliminating branches that cannot influence the final decision.
+Alpha-Beta Pruning reduces unnecessary search branches, making the AI faster while maintaining perfect play.
 
-Benefits:
+**Impossible Mode** uses Minimax with Alpha-Beta Pruning, making the AI effectively unbeatable.
 
-Faster decision making
-Reduced search complexity
-Optimal gameplay
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```text
 Cosmic-Tic-Tac-Toe-AI
 │
-├── assets
-│   ├── banner.png
-│   ├── astronaut_avatar.png
-│   ├── alien_avatar.png
-│   ├── x_icon.png
-│   └── o_icon.png
-│
-├── data
-│   ├── leaderboard.json
-│   └── achievements.json
-│
-├── screens
-│   ├── home_screen.py
-│   ├── game_screen.py
-│   └── result_screen.py
-│
+├── assets/
+├── data/
+├── screens/
 ├── ai.py
 ├── game.py
 ├── leaderboard.py
@@ -95,80 +70,67 @@ Cosmic-Tic-Tac-Toe-AI
 ├── main.py
 ├── requirements.txt
 └── README.md
-⚙️ Installation
-1️⃣ Clone the Repository
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
 git clone https://github.com/YOUR_USERNAME/Cosmic-Tic-Tac-Toe-AI.git
-2️⃣ Navigate to the Project Folder
+```
+
+Navigate into the project:
+
+```bash
 cd Cosmic-Tic-Tac-Toe-AI
-3️⃣ Create a Virtual Environment
-python -m venv .venv
-4️⃣ Activate the Environment
-
-Windows
-
-.venv\Scripts\activate
-
-Mac/Linux
-
-source .venv/bin/activate
-5️⃣ Install Dependencies
-pip install -r requirements.txt
-6️⃣ Run the Game
-python main.py
-📦 Requirements
-Python 3.10+
-Pillow
-Tkinter
+```
 
 Install dependencies:
 
-pip install pillow
-🎯 Learning Outcomes
+```bash
+pip install -r requirements.txt
+```
 
-This project helped develop practical experience in:
+Run the game:
 
-Artificial Intelligence
-Game Theory
-Adversarial Search
-Minimax Strategy
-Alpha-Beta Pruning
-Python Programming
-Tkinter GUI Development
-Event-Driven Programming
-Data Persistence with JSON
-Software Architecture
-Object-Oriented Design
-🚀 Future Improvements
+```bash
+python main.py
+```
 
-Planned enhancements include:
+---
 
-Sound Effects
-Animated Transitions
-AI Move Visualisation
-Enhanced Statistics Dashboard
-Expanded Achievement System
-Improved UI/UX
-Multiplayer Support
-Online Leaderboards
+## 🎯 What I Learned
 
-👩‍💻 Author
+Through this project I gained practical experience with:
 
-Upasana Pawar
+- Artificial Intelligence Fundamentals
+- Minimax Search
+- Alpha-Beta Pruning
+- Python GUI Development
+- Event-Driven Programming
+- JSON Data Storage
+- Object-Oriented Design
 
-⭐ Support
+---
 
-If you found this project useful or interesting, consider giving it a Star ⭐ on GitHub.
+## 🚀 Future Improvements
 
-"The AI may be unbeatable, but every match is a chance to improve your strategy." 🚀👽
+- Enhanced UI/UX
+- Sound Effects
+- Animation System
+- Multiplayer Mode
+- Online Leaderboards
+- Advanced Achievement Tracking
 
-GitHub tip
+---
 
-Put your banner image here:
+## 👩‍💻 Author
 
-assets/banner.png
+**Upasana Pawar**
 
+---
 
-
-If you found this project interesting, consider giving it a **Star ⭐** on GitHub.
-
-It helps others discover the project and supports future development.
+⭐ If you found this project interesting, consider giving it a star.
